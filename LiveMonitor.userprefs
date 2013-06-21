@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LiveMonitor/Controllers/NotificationController.cs">
+    <Files>
+      <File FileName="LiveMonitor/Views/LiveMonitor/Index.cshtml" Line="69" Column="8" />
+      <File FileName="LiveMonitor/js/app.js" Line="36" Column="7" />
+      <File FileName="LiveMonitor/Controllers/NotificationController.cs" Line="11" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
