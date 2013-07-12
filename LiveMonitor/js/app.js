@@ -45,13 +45,13 @@ Statistics = (function(){
     };
 
     var listenForUpdates = function(){
-        var pusher = new Pusher('b0d95df00dd6be817af7');
+        /*var pusher = new Pusher('b0d95df00dd6be817af7');
         var channel = pusher.subscribe('stats_channel');
 
         channel.bind('update_event',function(data){
             updateCPUChart(data);
             updateMemoryChart(data);
-        })
+        })*/
     }
 
     Statistics.initialize = function(){
@@ -67,17 +67,23 @@ Statistics = (function(){
 
 Notifications = (function(){
     var Notifications = function(){}
-    var showNotification = function(data){
-        $('#notifications').prepend("<div class=alert><button type=button class=close data-dismiss=alert>&times;</button>" + data.message + "</div>");
-    }
 
-    var listenForUpdates = function(){
-        var pusher = new Pusher('b0d95df00dd6be817af7');
+    var listenForUpdates = function () {
+    	window.notificaiton = $.connection.notificationHub;
+    	notificaiton.client.showNotification = function (message) {
+    		$('#notifications').prepend("<div class=alert><button type=button class=close data-dismiss=alert>&times;</button>" + message + "</div>");
+    	};
+
+    	$.connection.hub.start(); //.done(function () {
+
+    	//});
+
+        /*var pusher = new Pusher('b0d95df00dd6be817af7');
         var channel = pusher.subscribe('notifications_channel');
 
         channel.bind('new_event',function(data){
             showNotification(data);
-        })
+        })*/
     };
 
     Notifications.initialize = function(){

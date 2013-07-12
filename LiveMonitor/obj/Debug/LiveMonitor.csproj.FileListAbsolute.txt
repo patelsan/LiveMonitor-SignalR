@@ -26,3 +26,38 @@
 \\vmware-host\Shared Folders\Documents\EXPERIMENTS\LiveMonitor\LiveMonitor\obj\Debug\LiveMonitor.pdb
 \\vmware-host\Shared Folders\Documents\EXPERIMENTS\LiveMonitor\LiveMonitor\bin\PusherServer.dll
 \\vmware-host\Shared Folders\Documents\EXPERIMENTS\LiveMonitor\LiveMonitor\bin\RestSharp.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\LiveMonitor.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\LiveMonitor.pdb
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Microsoft.Web.Infrastructure.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Newtonsoft.Json.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Net.Http.Formatting.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Helpers.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Http.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Http.WebHost.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Mvc.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Razor.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.WebPages.Deployment.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.WebPages.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.WebPages.Razor.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Newtonsoft.Json.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Net.Http.Formatting.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Helpers.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Http.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Http.WebHost.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Mvc.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.Razor.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.WebPages.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.WebPages.Deployment.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\System.Web.WebPages.Razor.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\obj\Debug\LiveMonitor.csprojResolveAssemblyReference.cache
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\obj\Debug\LiveMonitor.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\obj\Debug\LiveMonitor.pdb
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Owin.dll
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Sanjay\Experiments\LiveMonitor-SignalR\LiveMonitor\bin\Microsoft.Owin.Host.SystemWeb.xml
