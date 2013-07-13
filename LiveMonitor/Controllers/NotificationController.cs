@@ -9,11 +9,6 @@ namespace LiveMonitor.Controllers
 {
     public class NotificationController : Controller
     {
-		//Update with your application keys
-        private readonly static string APP_ID = "46568";
-        private readonly static string APP_KEY = "b0d95df00dd6be817af7";
-        private readonly static string APP_SECRET = "d5fa096323689eba8026";
-
         [AcceptVerbs(HttpVerbs.Get)]
         public JsonResult Send(string message)
         {
