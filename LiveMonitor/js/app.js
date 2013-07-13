@@ -47,7 +47,6 @@ Statistics = (function(){
     var listenForUpdates = function () {
     	var connection = $.hubConnection("http://localhost:8080")
     	var hubProxy = connection.createHubProxy('statsHub')
-    	//hubProxy.client = {}
     	hubProxy.on('updateStats', function (data) {
     		updateCPUChart(data);
     		updateMemoryChart(data);
@@ -55,14 +54,6 @@ Statistics = (function(){
     	});
 
     	connection.start();
-
-        /*var pusher = new Pusher('b0d95df00dd6be817af7');
-        var channel = pusher.subscribe('stats_channel');
-
-        channel.bind('update_event',function(data){
-            updateCPUChart(data);
-            updateMemoryChart(data);
-        })*/
     }
 
     Statistics.initialize = function(){
@@ -85,16 +76,7 @@ Notifications = (function(){
     		$('#notifications').prepend("<div class=alert><button type=button class=close data-dismiss=alert>&times;</button>" + message + "</div>");
     	};
 
-    	//------------------$.connection.hub.start(); //.done(function () {
-
-    	//});
-
-        /*var pusher = new Pusher('b0d95df00dd6be817af7');
-        var channel = pusher.subscribe('notifications_channel');
-
-        channel.bind('new_event',function(data){
-            showNotification(data);
-        })*/
+    	$.connection.hub.start();
     };
 
     Notifications.initialize = function(){
@@ -108,8 +90,6 @@ Notifications = (function(){
 window.onload = function () {
     Statistics.initialize();
     Notifications.initialize();
-
-    $.connection.hub.start();
 
     $('#sendnotification').click(function(e){
         $.ajax({
