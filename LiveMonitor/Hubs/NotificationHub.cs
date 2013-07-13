@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +8,8 @@ namespace LiveMonitor.Hubs
 {
 	public class NotificationHub: Hub
 	{
-		//This method could be called to directly broadcast the message form the client side proxy, 
-		//however in our case, we chose to broadcast if from a NotificationController
+		//This method could be invoked from the client side through the proxy to publish the messages. 
+		//However in our case, we chose to do it from the controller instead, so server could do any additional work.
 		public void Send(string message)
 		{
 			Clients.All.showNotification(message);
