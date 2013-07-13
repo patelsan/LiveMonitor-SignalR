@@ -44,7 +44,18 @@ Statistics = (function(){
         memoryUsageChart.render();
     };
 
-    var listenForUpdates = function(){
+    var listenForUpdates = function () {
+    	var connection = $.hubConnection("http://localhost:8080")
+    	var hubProxy = connection.createHubProxy('statsHub')
+    	//hubProxy.client = {}
+    	hubProxy.on('updateStats', function (data) {
+    		updateCPUChart(data);
+    		updateMemoryChart(data);
+
+    	});
+
+    	connection.start();
+
         /*var pusher = new Pusher('b0d95df00dd6be817af7');
         var channel = pusher.subscribe('stats_channel');
 
@@ -69,12 +80,12 @@ Notifications = (function(){
     var Notifications = function(){}
 
     var listenForUpdates = function () {
-    	window.notificaiton = $.connection.notificationHub;
+    	var notificaiton = $.connection.notificationHub;
     	notificaiton.client.showNotification = function (message) {
     		$('#notifications').prepend("<div class=alert><button type=button class=close data-dismiss=alert>&times;</button>" + message + "</div>");
     	};
 
-    	$.connection.hub.start(); //.done(function () {
+    	//------------------$.connection.hub.start(); //.done(function () {
 
     	//});
 
@@ -97,6 +108,8 @@ Notifications = (function(){
 window.onload = function () {
     Statistics.initialize();
     Notifications.initialize();
+
+    $.connection.hub.start();
 
     $('#sendnotification').click(function(e){
         $.ajax({
